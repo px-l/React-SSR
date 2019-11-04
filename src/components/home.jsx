@@ -12,7 +12,7 @@ const mapDispatchToProps = dispatch => ({
 
 export default connect(mapStateToProps, mapDispatchToProps)(props => (
   <>
-    <h2>首页</h2>
+    <h2>小木屋</h2>
     <button type="button" onClick={() => props.logIn()}>登录</button>
   </>
 ));
